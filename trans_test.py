@@ -4,6 +4,7 @@ from azure.cosmosdb.table.models import Entity
 from bottle import route, run, template, redirect, request
 import http.client, urllib.parse, uuid, json
 
+#translate text apiの接続情報
 TRANS_ACCESS_KEY = "b2119fbe19bc40d0973696ed7c00e730"
 HOST = 'api.cognitive.microsofttranslator.com'
 PATH = '/translate?api-version=3.0'
